@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Conn_01x05_Female J11
-U 1 1 607E756A
-P 6850 4500
-F 0 "J11" H 6742 4075 50  0000 C CNN
-F 1 "Taps 0-5" H 6742 4166 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 6850 4500 50  0001 C CNN
-F 3 "~" H 6850 4500 50  0001 C CNN
-	1    6850 4500
-	1    0    0    1   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 607E9C8D
@@ -291,17 +280,6 @@ Wire Wire Line
 Wire Wire Line
 	5450 2300 6400 2300
 $Comp
-L Connector:Conn_01x04_Female J10
-U 1 1 607E6DEF
-P 6850 3000
-F 0 "J10" H 6878 2976 50  0000 L CNN
-F 1 "Taps 6-8" H 6878 2885 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6850 3000 50  0001 C CNN
-F 3 "~" H 6850 3000 50  0001 C CNN
-	1    6850 3000
-	1    0    0    1   
-$EndComp
-$Comp
 L Mechanical:MountingHole H1
 U 1 1 60817FDA
 P 950 7400
@@ -345,4 +323,22 @@ F 3 "~" H 3200 7400 50  0001 C CNN
 	1    3200 7400
 	1    0    0    -1  
 $EndComp
+Text HLabel 6650 2800 2    50   Input ~ 0
+C8
+Text HLabel 6650 2900 2    50   Input ~ 0
+C7
+Text HLabel 6650 3000 2    50   Input ~ 0
+C6
+Text HLabel 6650 3100 2    50   Input ~ 0
+C5
+Text HLabel 6650 4300 2    50   Input ~ 0
+C4
+Text HLabel 6650 4400 2    50   Input ~ 0
+C3
+Text HLabel 6650 4500 2    50   Input ~ 0
+C2
+Text HLabel 6650 4600 2    50   Input ~ 0
+C1
+Text HLabel 6650 4700 2    50   Input ~ 0
+C0
 $EndSCHEMATC
