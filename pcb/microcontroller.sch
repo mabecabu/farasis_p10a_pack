@@ -574,7 +574,7 @@ Wire Wire Line
 Text HLabel 7650 3000 2    50   Input ~ 0
 USB_DP
 Text HLabel 7650 3100 2    50   Input ~ 0
-UDB_DM
+USB_DM
 Wire Wire Line
 	6550 3000 7250 3000
 Wire Wire Line
