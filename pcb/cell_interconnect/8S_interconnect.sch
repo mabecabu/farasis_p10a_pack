@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -21,6 +21,7 @@ F 0 "J8" H 4518 2425 50  0000 C CNN
 F 1 "C7" H 4518 2516 50  0000 C CNN
 F 2 "farasis_p10a_pack:farasis_p10a_tab" H 4600 2650 50  0001 C CNN
 F 3 "~" H 4600 2650 50  0001 C CNN
+F 4 "~" H 4600 2650 50  0001 C CNN "MPN"
 	1    4600 2650
 	-1   0    0    1   
 $EndComp
@@ -32,6 +33,7 @@ F 0 "J7" H 4518 2775 50  0000 C CNN
 F 1 "C6" H 4518 2866 50  0000 C CNN
 F 2 "farasis_p10a_pack:farasis_p10a_tab" H 4600 3000 50  0001 C CNN
 F 3 "~" H 4600 3000 50  0001 C CNN
+F 4 "~" H 4600 3000 50  0001 C CNN "MPN"
 	1    4600 3000
 	-1   0    0    1   
 $EndComp
@@ -43,6 +45,7 @@ F 0 "J6" H 4518 3125 50  0000 C CNN
 F 1 "C5" H 4518 3216 50  0000 C CNN
 F 2 "farasis_p10a_pack:farasis_p10a_tab" H 4600 3350 50  0001 C CNN
 F 3 "~" H 4600 3350 50  0001 C CNN
+F 4 "~" H 4600 3350 50  0001 C CNN "MPN"
 	1    4600 3350
 	-1   0    0    1   
 $EndComp
@@ -54,6 +57,7 @@ F 0 "J5" H 4518 3475 50  0000 C CNN
 F 1 "C4" H 4518 3566 50  0000 C CNN
 F 2 "farasis_p10a_pack:farasis_p10a_tab" H 4600 3700 50  0001 C CNN
 F 3 "~" H 4600 3700 50  0001 C CNN
+F 4 "~" H 4600 3700 50  0001 C CNN "MPN"
 	1    4600 3700
 	-1   0    0    1   
 $EndComp
@@ -65,6 +69,7 @@ F 0 "J4" H 4518 3825 50  0000 C CNN
 F 1 "C3" H 4518 3916 50  0000 C CNN
 F 2 "farasis_p10a_pack:farasis_p10a_tab" H 4600 4050 50  0001 C CNN
 F 3 "~" H 4600 4050 50  0001 C CNN
+F 4 "~" H 4600 4050 50  0001 C CNN "MPN"
 	1    4600 4050
 	-1   0    0    1   
 $EndComp
@@ -76,6 +81,7 @@ F 0 "J3" H 4518 4175 50  0000 C CNN
 F 1 "C2" H 4518 4266 50  0000 C CNN
 F 2 "farasis_p10a_pack:farasis_p10a_tab" H 4600 4400 50  0001 C CNN
 F 3 "~" H 4600 4400 50  0001 C CNN
+F 4 "~" H 4600 4400 50  0001 C CNN "MPN"
 	1    4600 4400
 	-1   0    0    1   
 $EndComp
@@ -87,6 +93,7 @@ F 0 "J2" H 4518 4525 50  0000 C CNN
 F 1 "C1" H 4518 4616 50  0000 C CNN
 F 2 "farasis_p10a_pack:farasis_p10a_tab" H 4600 4750 50  0001 C CNN
 F 3 "~" H 4600 4750 50  0001 C CNN
+F 4 "~" H 4600 4750 50  0001 C CNN "MPN"
 	1    4600 4750
 	-1   0    0    1   
 $EndComp
@@ -98,6 +105,7 @@ F 0 "J1" H 4518 4875 50  0000 C CNN
 F 1 "C0" H 4518 4966 50  0000 C CNN
 F 2 "farasis_p10a_pack:cell_tap_wire_land" H 4600 5100 50  0001 C CNN
 F 3 "~" H 4600 5100 50  0001 C CNN
+F 4 "~" H 4600 5100 50  0001 C CNN "MPN"
 	1    4600 5100
 	-1   0    0    1   
 $EndComp
@@ -109,6 +117,7 @@ F 0 "F8" V 5103 2650 50  0000 C CNN
 F 1 "Fuse" V 5194 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 2650 50  0001 C CNN
 F 3 "~" H 5300 2650 50  0001 C CNN
+F 4 "~" H 5300 2650 50  0001 C CNN "MPN"
 	1    5300 2650
 	0    1    1    0   
 $EndComp
@@ -120,6 +129,7 @@ F 0 "F7" V 5103 3000 50  0000 C CNN
 F 1 "Fuse" V 5194 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 3000 50  0001 C CNN
 F 3 "~" H 5300 3000 50  0001 C CNN
+F 4 "~" H 5300 3000 50  0001 C CNN "MPN"
 	1    5300 3000
 	0    1    1    0   
 $EndComp
@@ -131,6 +141,7 @@ F 0 "F6" V 5103 3350 50  0000 C CNN
 F 1 "Fuse" V 5194 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 3350 50  0001 C CNN
 F 3 "~" H 5300 3350 50  0001 C CNN
+F 4 "~" H 5300 3350 50  0001 C CNN "MPN"
 	1    5300 3350
 	0    1    1    0   
 $EndComp
@@ -142,6 +153,7 @@ F 0 "F5" V 5103 3700 50  0000 C CNN
 F 1 "Fuse" V 5194 3700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 3700 50  0001 C CNN
 F 3 "~" H 5300 3700 50  0001 C CNN
+F 4 "~" H 5300 3700 50  0001 C CNN "MPN"
 	1    5300 3700
 	0    1    1    0   
 $EndComp
@@ -153,6 +165,7 @@ F 0 "F4" V 5103 4050 50  0000 C CNN
 F 1 "Fuse" V 5194 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 4050 50  0001 C CNN
 F 3 "~" H 5300 4050 50  0001 C CNN
+F 4 "~" H 5300 4050 50  0001 C CNN "MPN"
 	1    5300 4050
 	0    -1   1    0   
 $EndComp
@@ -164,6 +177,7 @@ F 0 "F3" V 5103 4400 50  0000 C CNN
 F 1 "Fuse" V 5194 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 4400 50  0001 C CNN
 F 3 "~" H 5300 4400 50  0001 C CNN
+F 4 "~" H 5300 4400 50  0001 C CNN "MPN"
 	1    5300 4400
 	0    -1   1    0   
 $EndComp
@@ -175,6 +189,7 @@ F 0 "F2" V 5103 4750 50  0000 C CNN
 F 1 "Fuse" V 5194 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 4750 50  0001 C CNN
 F 3 "~" H 5300 4750 50  0001 C CNN
+F 4 "~" H 5300 4750 50  0001 C CNN "MPN"
 	1    5300 4750
 	0    -1   1    0   
 $EndComp
@@ -186,6 +201,7 @@ F 0 "F1" V 5103 5100 50  0000 C CNN
 F 1 "Fuse" V 5194 5100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 5100 50  0001 C CNN
 F 3 "~" H 5300 5100 50  0001 C CNN
+F 4 "~" H 5300 5100 50  0001 C CNN "MPN"
 	1    5300 5100
 	0    -1   1    0   
 $EndComp
@@ -257,6 +273,7 @@ F 0 "J9" H 4518 2075 50  0000 C CNN
 F 1 "C8" H 4518 2166 50  0000 C CNN
 F 2 "farasis_p10a_pack:cell_tap_wire_land" H 4600 2300 50  0001 C CNN
 F 3 "~" H 4600 2300 50  0001 C CNN
+F 4 "~" H 4600 2300 50  0001 C CNN "MPN"
 	1    4600 2300
 	-1   0    0    1   
 $EndComp
@@ -268,6 +285,7 @@ F 0 "F9" V 5103 2300 50  0000 C CNN
 F 1 "Fuse" V 5194 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 2300 50  0001 C CNN
 F 3 "~" H 5300 2300 50  0001 C CNN
+F 4 "~" H 5300 2300 50  0001 C CNN "MPN"
 	1    5300 2300
 	0    1    1    0   
 $EndComp
@@ -287,6 +305,7 @@ F 0 "H1" H 1050 7446 50  0000 L CNN
 F 1 "MountingHole" H 1050 7355 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 7400 50  0001 C CNN
 F 3 "~" H 950 7400 50  0001 C CNN
+F 4 "~" H 950 7400 50  0001 C CNN "MPN"
 	1    950  7400
 	1    0    0    -1  
 $EndComp
@@ -298,6 +317,7 @@ F 0 "H2" H 1800 7446 50  0000 L CNN
 F 1 "MountingHole" H 1800 7355 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 1700 7400 50  0001 C CNN
 F 3 "~" H 1700 7400 50  0001 C CNN
+F 4 "~" H 1700 7400 50  0001 C CNN "MPN"
 	1    1700 7400
 	1    0    0    -1  
 $EndComp
@@ -309,6 +329,7 @@ F 0 "H3" H 2550 7446 50  0000 L CNN
 F 1 "MountingHole" H 2550 7355 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2450 7400 50  0001 C CNN
 F 3 "~" H 2450 7400 50  0001 C CNN
+F 4 "~" H 2450 7400 50  0001 C CNN "MPN"
 	1    2450 7400
 	1    0    0    -1  
 $EndComp
@@ -320,6 +341,7 @@ F 0 "H4" H 3300 7446 50  0000 L CNN
 F 1 "MountingHole" H 3300 7355 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 3200 7400 50  0001 C CNN
 F 3 "~" H 3200 7400 50  0001 C CNN
+F 4 "~" H 3200 7400 50  0001 C CNN "MPN"
 	1    3200 7400
 	1    0    0    -1  
 $EndComp
