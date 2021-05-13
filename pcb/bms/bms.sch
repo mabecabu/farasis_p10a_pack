@@ -55,6 +55,7 @@ F 1 "MountingHole" H 750 605 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 650 650 50  0001 C CNN
 F 3 "~" H 650 650 50  0001 C CNN
 F 4 "" H 650 650 50  0001 C CNN "MPN"
+F 5 "" H 650 650 50  0001 C CNN "Manufacturer"
 	1    650  650 
 	1    0    0    -1  
 $EndComp
@@ -69,6 +70,7 @@ F 1 "MountingHole" H 1500 605 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 1400 650 50  0001 C CNN
 F 3 "~" H 1400 650 50  0001 C CNN
 F 4 "" H 1400 650 50  0001 C CNN "MPN"
+F 5 "" H 1400 650 50  0001 C CNN "Manufacturer"
 	1    1400 650 
 	1    0    0    -1  
 $EndComp
@@ -83,6 +85,7 @@ F 1 "MountingHole" H 2250 605 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2150 650 50  0001 C CNN
 F 3 "~" H 2150 650 50  0001 C CNN
 F 4 "" H 2150 650 50  0001 C CNN "MPN"
+F 5 "" H 2150 650 50  0001 C CNN "Manufacturer"
 	1    2150 650 
 	1    0    0    -1  
 $EndComp
@@ -97,6 +100,7 @@ F 1 "MountingHole" H 3000 605 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2900 650 50  0001 C CNN
 F 3 "~" H 2900 650 50  0001 C CNN
 F 4 "" H 2900 650 50  0001 C CNN "MPN"
+F 5 "" H 2900 650 50  0001 C CNN "Manufacturer"
 	1    2900 650 
 	1    0    0    -1  
 $EndComp
@@ -111,8 +115,8 @@ F 0 "J1" H 5950 3150 50  0000 C CNN
 F 1 "Taps 0-5" H 5850 3050 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6050 3050 50  0001 C CNN
 F 3 "~" H 6050 3050 50  0001 C CNN
-F 4 "~" H 6050 3050 50  0001 C CNN "MPN"
-F 5 "~" H 6050 3050 50  0001 C CNN "Manufacturer"
+F 4 "" H 6050 3050 50  0001 C CNN "MPN"
+F 5 "" H 6050 3050 50  0001 C CNN "Manufacturer"
 	1    6050 3050
 	-1   0    0    -1  
 $EndComp
@@ -127,8 +131,8 @@ F 0 "J2" H 5900 2450 50  0000 L CNN
 F 1 "Taps 6-8" H 5650 2550 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6050 2600 50  0001 C CNN
 F 3 "~" H 6050 2600 50  0001 C CNN
-F 4 "~" H 6050 2600 50  0001 C CNN "MPN"
-F 5 "~" H 6050 2600 50  0001 C CNN "Manufacturer"
+F 4 "" H 6050 2600 50  0001 C CNN "MPN"
+F 5 "" H 6050 2600 50  0001 C CNN "Manufacturer"
 	1    6050 2600
 	-1   0    0    1   
 $EndComp
@@ -166,12 +170,12 @@ $EndComp
 $Comp
 L power:-BATT #PWR04
 U 1 1 60DA2F2B
-P 7500 3250
-F 0 "#PWR04" H 7500 3100 50  0001 C CNN
-F 1 "-BATT" H 7515 3423 50  0000 C CNN
-F 2 "" H 7500 3250 50  0001 C CNN
-F 3 "" H 7500 3250 50  0001 C CNN
-	1    7500 3250
+P 7500 3300
+F 0 "#PWR04" H 7500 3150 50  0001 C CNN
+F 1 "-BATT" H 7515 3473 50  0000 C CNN
+F 2 "" H 7500 3300 50  0001 C CNN
+F 3 "" H 7500 3300 50  0001 C CNN
+	1    7500 3300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -211,18 +215,7 @@ Wire Wire Line
 Connection ~ 8200 2550
 Wire Wire Line
 	8200 2550 8200 2500
-Wire Wire Line
-	8050 3200 8200 3200
-Wire Wire Line
-	8200 3200 8200 2950
 Connection ~ 8200 2950
-Wire Wire Line
-	7650 3200 7500 3200
-Wire Wire Line
-	7500 3200 7500 3250
-Wire Wire Line
-	7500 2950 7500 3200
-Connection ~ 7500 3200
 $Comp
 L Connector_Generic:Conn_01x04 J9
 U 1 1 6110005E
@@ -317,18 +310,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 1850 7750 1850
 $Comp
-L Device:SPARK_GAP E1
-U 1 1 60E2F095
-P 7850 3200
-F 0 "E1" H 7850 3390 50  0000 C CNN
-F 1 "SPARK_GAP" H 7850 3299 50  0000 C CNN
-F 2 "" H 7850 3130 50  0001 C CNN
-F 3 "~" V 7850 3200 50  0001 C CNN
-F 4 "" H 7850 3200 50  0001 C CNN "MPN"
-	1    7850 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 60B24F80
 P 7700 1900
@@ -397,7 +378,7 @@ F 1 "Batt+ In" H 8030 1601 50  0000 L CNN
 F 2 "farasis_p10a_pack:74651195R" H 7950 1650 50  0001 C CNN
 F 3 "~" H 7950 1650 50  0001 C CNN
 F 4 "74651195R" H 7950 1650 50  0001 C CNN "MPN"
-F 5 "Würth Elektronik" H 7950 1650 50  0001 C CNN "Manufacturer"
+F 5 "Wurth Elektronik" H 7950 1650 50  0001 C CNN "Manufacturer"
 	1    7950 1650
 	1    0    0    -1  
 $EndComp
@@ -410,7 +391,7 @@ F 1 "Batt- In" H 8030 1801 50  0000 L CNN
 F 2 "farasis_p10a_pack:74651195R" H 7950 1850 50  0001 C CNN
 F 3 "~" H 7950 1850 50  0001 C CNN
 F 4 "74651195R" H 7950 1850 50  0001 C CNN "MPN"
-F 5 "Würth Elektronik" H 7950 1850 50  0001 C CNN "Manufacturer"
+F 5 "Wurth Elektronik" H 7950 1850 50  0001 C CNN "Manufacturer"
 	1    7950 1850
 	1    0    0    -1  
 $EndComp
@@ -423,7 +404,7 @@ F 1 "Batt+ Out" H 8480 2501 50  0000 L CNN
 F 2 "farasis_p10a_pack:74651195R" H 8400 2550 50  0001 C CNN
 F 3 "~" H 8400 2550 50  0001 C CNN
 F 4 "74651195R" H 8400 2550 50  0001 C CNN "MPN"
-F 5 "Würth Elektronik" H 8400 2550 50  0001 C CNN "Manufacturer"
+F 5 "Wurth Elektronik" H 8400 2550 50  0001 C CNN "Manufacturer"
 	1    8400 2550
 	1    0    0    -1  
 $EndComp
@@ -436,13 +417,12 @@ F 1 "Batt- Out" H 7218 2676 50  0000 C CNN
 F 2 "farasis_p10a_pack:74651195R" H 7300 2550 50  0001 C CNN
 F 3 "~" H 7300 2550 50  0001 C CNN
 F 4 "74651195R" H 7300 2550 50  0001 C CNN "MPN"
-F 5 "Würth Elektronik" H 7300 2550 50  0001 C CNN "Manufacturer"
+F 5 "Wurth Elektronik" H 7300 2550 50  0001 C CNN "Manufacturer"
 	1    7300 2550
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7500 2950 7500 2550
-Connection ~ 7500 2950
 Wire Wire Line
 	6450 4700 6450 4650
 Wire Wire Line
@@ -548,8 +528,8 @@ F 0 "J3" H 6022 2124 50  0000 R CNN
 F 1 "Taps 9-10" H 6022 2033 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6050 2150 50  0001 C CNN
 F 3 "~" H 6050 2150 50  0001 C CNN
-F 4 "~" H 6050 2150 50  0001 C CNN "MPN"
-F 5 "~" H 6050 2150 50  0001 C CNN "Manufacturer"
+F 4 "" H 6050 2150 50  0001 C CNN "MPN"
+F 5 "" H 6050 2150 50  0001 C CNN "Manufacturer"
 	1    6050 2150
 	-1   0    0    -1  
 $EndComp
@@ -607,4 +587,29 @@ Text Label 6550 4150 1    50   ~ 0
 RST_SHUT
 Text Label 6650 4650 3    50   ~ 0
 WAKE
+$Comp
+L Device:D_TVS D9
+U 1 1 609E1D69
+P 7850 3250
+F 0 "D9" H 7850 3467 50  0000 C CNN
+F 1 "48V" H 7850 3376 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 7850 3250 50  0001 C CNN
+F 3 "~" H 7850 3250 50  0001 C CNN
+F 4 "SMBJ48A" H 7850 3250 50  0001 C CNN "MPN"
+F 5 "Littelfuse" H 7850 3250 50  0001 C CNN "Manufacturer"
+	1    7850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2950 7500 3250
+Connection ~ 7500 2950
+Wire Wire Line
+	7500 3250 7700 3250
+Connection ~ 7500 3250
+Wire Wire Line
+	7500 3250 7500 3300
+Wire Wire Line
+	8200 2950 8200 3250
+Wire Wire Line
+	8000 3250 8200 3250
 $EndSCHEMATC

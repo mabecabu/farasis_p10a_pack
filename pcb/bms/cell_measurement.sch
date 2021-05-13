@@ -1725,6 +1725,8 @@ F 0 "JP9" H 6000 2893 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 6000 2894 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6000 2800 50  0001 C CNN
 F 3 "~" H 6000 2800 50  0001 C CNN
+F 4 "" H 6000 2800 50  0001 C CNN "MPN"
+F 5 "" H 6000 2800 50  0001 C CNN "Manufacturer"
 	1    6000 2800
 	1    0    0    -1  
 $EndComp
@@ -1903,6 +1905,8 @@ F 0 "JP7" H 5700 3043 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 5700 3044 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5700 2950 50  0001 C CNN
 F 3 "~" H 5700 2950 50  0001 C CNN
+F 4 "" H 5700 2950 50  0001 C CNN "MPN"
+F 5 "" H 5700 2950 50  0001 C CNN "Manufacturer"
 	1    5700 2950
 	1    0    0    -1  
 $EndComp

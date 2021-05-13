@@ -103,7 +103,7 @@ U 1 1 607EBE08
 P 4600 5100
 F 0 "J1" H 4518 4875 50  0000 C CNN
 F 1 "C0" H 4518 4966 50  0000 C CNN
-F 2 "farasis_p10a_pack:cell_tap_wire_land" H 4600 5100 50  0001 C CNN
+F 2 "farasis_p10a_pack:farasis_p10a_end_tab_offset_right" H 4600 5100 50  0001 C CNN
 F 3 "~" H 4600 5100 50  0001 C CNN
 F 4 "~" H 4600 5100 50  0001 C CNN "MPN"
 	1    4600 5100
@@ -117,7 +117,8 @@ F 0 "F8" V 5103 2650 50  0000 C CNN
 F 1 "Fuse" V 5194 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 2650 50  0001 C CNN
 F 3 "~" H 5300 2650 50  0001 C CNN
-F 4 "~" H 5300 2650 50  0001 C CNN "MPN"
+F 4 "C2Q 300" H 5300 2650 50  0001 C CNN "MPN"
+F 5 "Bel Fuse Inc" V 5300 2650 50  0001 C CNN "Manufacturer"
 	1    5300 2650
 	0    1    1    0   
 $EndComp
@@ -271,7 +272,7 @@ U 1 1 60814F92
 P 4600 2300
 F 0 "J9" H 4518 2075 50  0000 C CNN
 F 1 "C8" H 4518 2166 50  0000 C CNN
-F 2 "farasis_p10a_pack:cell_tap_wire_land" H 4600 2300 50  0001 C CNN
+F 2 "farasis_p10a_pack:farasis_p10a_end_tab_offset_left" H 4600 2300 50  0001 C CNN
 F 3 "~" H 4600 2300 50  0001 C CNN
 F 4 "~" H 4600 2300 50  0001 C CNN "MPN"
 	1    4600 2300
